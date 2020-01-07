@@ -11,13 +11,12 @@ test("should have App component", async t => {
   await t.hover(appComponent);
   
 });
-
-test("should have  NestedApp component", async t => {
-    const appComponent = ReactSelector("NestedApp");
+test("should have  PeerApp component", async t => {
+    const appComponent = ReactSelector("PeerApp");
     await t.hover(appComponent);
   });
 
-  test("should have  PeerApp component", async t => {
-    const appComponent = ReactSelector("PeerApp");
+test("should have  NestedApp component", async t => {
+    const appComponent = ReactSelector("NestedApp");
     await t.hover(appComponent);
   });

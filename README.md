@@ -2,9 +2,9 @@
 App to repro test cafe react selector issue with finding  component inside nested root
 
 ## Steps to run test
-Clone 
-yarn install
-yarn uitest
+### Clone 
+### yarn install
+### yarn uitest
 
 ## Added three tests 
 should have App component - Passing
